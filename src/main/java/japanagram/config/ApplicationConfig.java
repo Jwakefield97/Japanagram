@@ -16,7 +16,7 @@ import org.springframework.jdbc.datasource.lookup.JndiDataSourceLookup;
 import org.springframework.scheduling.annotation.EnableScheduling;
 
 @Configuration
-@ComponentScan(basePackages = "com.japanagram")
+@ComponentScan(basePackages = "japanagram")
 @EnableScheduling
 public class ApplicationConfig {
 

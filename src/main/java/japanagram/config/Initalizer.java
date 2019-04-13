@@ -27,7 +27,6 @@ public class Initalizer implements WebApplicationInitializer {
 
         // Creates the dispatcher servlet context
         AnnotationConfigWebApplicationContext servletContext = new AnnotationConfigWebApplicationContext();
-        servletContext.register(WebConfig.class);
         // Further configures the servlet context
         ServletRegistration.Dynamic dispatcher = container.addServlet("JapanagramServlet",
                                                                       new DispatcherServlet(servletContext));
